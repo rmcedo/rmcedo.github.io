@@ -1,41 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato | Rafael Macedo</title>
-</head>
+    <link rel="stylesheet" href="/css/templaterafael.css">
+    <style>
 
-<body>
-    <a href="/index.html">Página Inicial</a>
-    <hr>
-    <center>
-        <h1>Entre em Contato</h1>
-    </center>
-    <hr>
+        html{
+            background-color: teal;
+        }
+        nav a{
+            color: black;
+        }
+        nav a:hover{
+            color: cadetblue;
+        }
+        nav ul li:hover{
+            background-color:darkcyan;
 
     
-        <form action="mailto:rafael9408@gmail.com?subject=Formulário de Contato" method="post" enctype="text/plain">
-            <label for="nome">Nome: </label><br>
-            <input type="text" name="nome" id="nome" placeholder="Informe seu Nome" required><br>
-            <br><label for="telefone">Telefone: </label><br>
-            <input type="text" name="telefone" id="telefone" placeholder="(xx) 9xxxx-xxxx"><br>
-            <br><label for="mensagem">Envie sua mensagem: </label><br>  <textarea name="mensagem" id="mensagem" cols="20" rows="15"
-                placeholder="Escreva sua mensagem aqui"></textarea><br>
+        }
 
-                <input type="submit">
-           
+    </style>
+</head>
+<body>
+    <header>
+        <img class="fotos" src="/Mídias/3.jpg" alt="Imagem Contato" width="250px" height="250px">
+        <h1 class="titulos">Fale comigo</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/index.html"><img src="/Mídias/home.png" width="20px" height="20px"> Página Inicial</a></li>
+            <li><a href="/curriculo.html"><img src="/Mídias/resume.png" width="20px" height="20px>"</a> Currículo</li>
+            
+        </ul>
 
-            <hr>
-            <h3><center>Todas as informações e mensagens enviadas aqui estão sob total sigilo e controle do administrador da página</center></h3>
+    </nav>
 
+    <main style="text-align: center;">
+       <p>
+            <form action="mailto:rafael9408@gmail.com?subject=Formulário de Contato" method="post" enctype="text/plain">
+                <label for="nome">Nome: </label><br>
+                <input type="text" name="nome" id="nome" placeholder="Informe seu Nome" required><br>
+                <br><label for="telefone">Telefone: </label><br>
+                <input type="text" name="telefone" id="telefone" placeholder="(xx) 9xxxx-xxxx"><br>
+                <br><label for="mensagem">Envie sua mensagem: </label><br>  <textarea name="mensagem" id="mensagem" cols="20" rows="15"
+                    placeholder="Escreva sua mensagem aqui"></textarea><br>
+    
+                    <input type="submit">
+       </p>
 
-
-
-
-        </form>
-   
+    </main>
+    <footer>
+<hr>
+<p>Todas informações de contato e a mensagem estarão de posse do Administrador do site: Rafael Macedo. Não irei divulgar nenhuma informação sem o consentimento do dono</p>
+    </footer>
+    
 </body>
-
 </html>
