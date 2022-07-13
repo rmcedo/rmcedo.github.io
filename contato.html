@@ -1,62 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato | Rafael Macedo</title>
-    <link rel="stylesheet" href="/css/templaterafael.css">
-    <style>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Rafael Macedo | Contato</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' media='screen' href='/css/main.css'>
+    <link rel="shortcut icon" href="/Mídias/Logo R.png" type="image/png">
 
-        html{
-            background-color: teal;
-        }
-        nav a{
-            color: black;
-        }
-        nav a:hover{
-            color: cadetblue;
-        }
-        nav ul li:hover{
-            background-color:darkcyan;
-
-    
-        }
-
-    </style>
 </head>
-<body>
+
+<body class="bg-dark container pt-4">
+
     <header>
-        <img class="fotos" src="/Mídias/3.jpg" alt="Imagem Contato" width="250px" height="250px">
-        <h1 class="titulos">Fale comigo</h1>
+        <section class="col">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-2">
+                            <img class="w-100 rounded-circle img-thumbnail bg-dark" src="/Mídias/Logo R.png" alt="Logo">
+
+                        </div>
+                        <div class="col mt-3">
+                            <h1 class="display-4">Rafael Macedo</h1>
+                            <hr>
+
+                            <a href="/index.html" class="btn btn-outline-primary ">Página Inicial</a>
+                            <a href="/currículo.html" class="btn btn-outline-primary ">Currículo</a>
+                            <a href="/contato.html" class="btn btn-primary m">Contato</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
-    <nav>
-        <ul>
-            <li><a href="/index.html"><img src="/Mídias/home.png" width="20px" height="20px"> Página Inicial</a></li>
-            <li><a href="/curriculo.html"><img src="/Mídias/resume.png" width="20px" height="20px>"> Currículo</a> </li>
-            
-        </ul>
+    <main class="row mt-2">
+        <section class="col">
+            <div class="card">
+                <div class="card-header text-center display-6">
+                    Contato
+                </div>
+                <div class="card-body">
+                    <!-- <section class="alert alert-danger alert-dismissible fade show">
+                        <b class="row col-xs-12 col-sm-12 col-md-12 col-lg-12" align="center">
+                            Todas as informações contidas no formulário estarão sob posse do administrador da página: Rafael
+                            Macedo.
+                            Não haverá divulgação das informações e dados sem consetimento do fornecedor das mesmas
+                        </b>
+                        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                    </section> -->
+                    <section class="row">
+                        <div class="col">
+                            <div class="card">
+                                <div class="text-center card-header">
+                                    Formulário
+                                </div>
+                                <form action="mailto:rafael9408@gmail.com?subject= Contato via Site Pessoal"
+                                    enctype="text/plain" method="post">
+                                    <div class="card-body"></div>
+                                    <div class="input-group p-2">
+                                        <span class="input-group-text" id="basic-addon1">Nome</span>
+                                        <input type="text" class="form-control" placeholder="Informe seu Nome"
+                                            name="Nome" required>
+                                    </div>
 
-    </nav>
+                                    <div class="input-group p-2">
+                                    <span class="input-group-text">Mensagem</span>
+                                    <textarea class="form-control" name:"Mensagem" placeholder="Informe sua Mensagem"></textarea>
+                            </div>
+                            <div class="card-footer text-center">
+                                <button class="btn btn-primary" type="reset">Limpar</button>
+                                <button class="btn btn-primary" type="submit">Enviar</button>
+                            </div>
+                            </form>
+                        </div>
+                </div>
+        </section>
+        </div>
 
-    <main style="text-align: center;">
-       <p>
-            <form action="mailto:rafael9408@gmail.com?subject=Formulário de Contato" method="post" enctype="text/plain">
-                <label for="nome">Nome: </label><br>
-                <input type="text" name="nome" id="nome" placeholder="Informe seu Nome" required><br>
-                <br><label for="telefone">Telefone: </label><br>
-                <input type="text" name="telefone" id="telefone" placeholder="(xx) 9xxxx-xxxx"><br>
-                <br><label for="mensagem">Envie sua mensagem: </label><br>  <textarea name="mensagem" id="mensagem" cols="20" rows="15"
-                    placeholder="Escreva sua mensagem aqui"></textarea><br>
-    
-                    <input type="submit">
-       </p>
+        <div class="card-footer">
+            <footer>
+
+            </footer>
+        </div>
+        </div>
+        </section>
+
+
 
     </main>
-    <footer>
-<hr>
-<p>Todas informações de contato e a mensagem estarão de posse do Administrador do site: Rafael Macedo. Não irei divulgar nenhuma informação sem o consentimento do dono</p>
-    </footer>
-    
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

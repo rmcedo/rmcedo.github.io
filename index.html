@@ -1,55 +1,142 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rafael Macedo | Front-End Developer</title>
-    <link rel="stylesheet" href="/css/templaterafael.css">
-    <style>
-        html{
-            background-color: lightseagreen;
-            padding: 20px;
-        }
-        nav a{
-            color: black;
-        }
-        nav a:hover{
-            color: lightseagreen;
-        }
-        nav ul li:hover{
-            background-color: lightseagreen;
-
-    
-        }
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <link rel="shortcut icon" href="/Mídias/Logo R.png" type="image/png">
+    <title>Rafael Macedo | Fron-End Portfolio</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' media='screen' href='/css/main.css'>
 
 
-    </style>
 </head>
-<body>
+
+<body class="bg-dark container pt-4">
+
     <header>
-        <img class="fotos" src="/Mídias/3.jpg" alt="Imagem de Rafael Macedo" width="200px" height="200px">
-        <h1 class="titulos">RAFAEL MACEDO</h1>
-        
+        <section class="col">
+            <div class="card">
+                <div class="card-body">
+                    <section class="row">
+                        <div class="col-2">
+                            <img class="w-100 rounded-circle img-thumbnail bg-dark" src="/Mídias/Logo R.png"
+                                alt="Profile">
+
+                        </div>
+                        <div class="col mt-3">
+                            <h1 class="display-4">Rafael Macedo</h1>
+                            <hr>
+
+                            <a href="/index.html" class="btn btn-primary">Página Inicial</a>
+                            <a href="/currículo.html" class="btn btn-outline-primary">Currículo</a>
+                            <a href="/contato.html" class="btn btn-outline-primary">Contato</a>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
     </header>
+    <main class="row mt-2">
+        <section class="col">
+            <div class="card h-100">
+                <div class="text-center flex-column card-header display-6"> Página Inicial</div>
+                <div class="text-center card-body">
+                    Seja bem-vindo
+                    <p>Aqui temos um breve resumo sobre minha trajetória dentro do Programa Entra21 - Java</p>
+                    <table class="table table-sm table-secondary table-striped table-bordered table-hover">
+                        <thead class="table-dark">
+                            <th>Conhecimento</th>
+                            <th>Detalhe</th>
+                            <th>Nível</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="3" class="text-center">Entra21</td>
+                            </tr>
+                            <tr>
+                                <td>Metodologias Ágeis</td>
+                                <td>Skrum, Kanban e Versionamento com Git</td>
+                                <td>Básico com vivência até o final do curso</td>
+                            </tr>
+                            <tr>
+                                <td>Lógica de Programação</td>
+                                <td>Ambiente, variavéis, constantes, operadores</td>
+                                <td>Básico sobre introdução a Programação com Java</td>
+                            </tr>
+                            <tr>
+                                <td>POO - Programação Orientada a Objetos</td>
+                                <td>Classes, Objetos, Encapsulamento, Métodos, Herança e Polimorfismo</td>
+                                <td>Básico sobre orientação a objetos com Java</td>
+                            </tr>
+                            <tr>
+                                <td>Java Avançado</td>
+                                <td>Enum, Collections, Anotações e Tratamento de erros</td>
+                                <td>Intermediário sobre conceitos Complexos sobre a Linguagem Java</td>
+                            </tr>
+                            <tr>
+                                <td>Banco de Dados Relacional</td>
+                                <td>Database, Tables, DDL e DML</td>
+                                <td>Básico sobre Manutenção de Banco de Consultas</td>
+                            </tr>
+                            <tr>
+                                <td>HTML e CSS</td>
+                                <td>Páginas, Tipografia, Estilos e Publicação</td>
+                                <td>Básico sobre criação de Páginas Web estáticas, sem programação</td>
+                            </tr> 
+                            <tr>
+                                <td colspan="3" class="text-center">Programa Start by Capgemini</td>
+                            </tr>
+                            <tr>
+                        </tbody>
+                    </table>
 
-    <nav>
-        <ul>
-            <li><a href="/index.html"><img src="/Mídias/home.png" width="20px" height="20px"> Página Inicial</a></li>
-            <li><a href="/curriculo.html"><img src="/Mídias/resume.png" width="20px" height="20px>"</a> Currículo</li>
-            <li><a href="/contato.html"><img src="/Mídias/contact.png" width="20px" height="20px"> Contato</a></li>
-        </ul>
+                </div>
+                <div class="card-footer">
+                    <footer>
 
-    </nav>
-
-    <main>
-        <h2 class="titulosec">Bem-vindo a minha página pessoal</h2>
-        <p>Esse espaço se destina a mostrar meus projetos e trabalhos realizados desde o início do Programa Entra21 até o dia de hoje</p>
+                    </footer>
+                </div>
+        </section>
+        </div>
+        </div>
+        </section>
 
     </main>
 
-    <footer>
-        <hr>
-    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
 </html>
