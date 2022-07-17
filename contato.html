@@ -44,10 +44,12 @@
                     Contato
                 </div>
                 <div class="card-body">
-                    <section class="alert alert-danger alert-dismissible fade show">
+                    <section class="d-flex align-content-center alert alert-danger alert-dismissible fade show">
                         <b class="text-center">
-                            Todas as informações contidas no formulário estarão sob posse do administrador da página: Rafael
-                            Macedo. Não haverá divulgação das informações e dados sem consetimento do fornecedor das mesmas
+                            Todas as informações contidas no formulário estarão sob posse do administrador da página:
+                            Rafael
+                            Macedo. Não haverá divulgação das informações e dados sem consetimento do fornecedor das
+                            mesmas
                         </b>
                         <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
                     </section>
@@ -57,35 +59,39 @@
                                 <div class="text-center card-header">
                                     Formulário
                                 </div>
-                                <form action="mailto:rafael9408@gmail.com?subject= Contato via Site Pessoal"
+                                <form class="col-md-6 offset-md-3"
+                                    action="mailto:rafael9408@gmail.com?subject= Contato via Site Pessoal"
                                     enctype="text/plain" method="post">
-                                    <div class="card-body"></div>
-                                    <div class="input-group p-2">
-                                        <span class="input-group-text" id="basic-addon1">Nome</span>
-                                        <input type="text" class="form-control" placeholder="Informe seu Nome"
-                                            name="Nome" required>
+                                    <div class="card-body">
+                                        <div class="input-group p-2">
+                                            <span class="input-group-text" id="basic-addon1">Nome</span>
+                                            <input type="text" class="form-control" placeholder="Informe seu Nome"
+                                                name="Nome" required>
+                                        </div>
+
+                                        <div class="input-group p-2">
+                                            <span class="input-group-text">Mensagem</span>
+                                            <textarea class="form-control" name:"Mensagem"
+                                                placeholder="Informe sua Mensagem"></textarea>
+                                        </div>
                                     </div>
 
-                                    <div class="input-group p-2">
-                                    <span class="input-group-text">Mensagem</span>
-                                    <textarea class="form-control" name:"Mensagem" placeholder="Informe sua Mensagem"></textarea>
+                                    <div class="pb-3 text-center">
+                                        <button class="btn btn-primary" type="reset">Limpar</button>
+                                        <button class="btn btn-primary" type="submit">Enviar</button>
+                                    </div>
+                                </form>
                             </div>
-                            <div class="card-footer text-center">
-                                <button class="btn btn-primary" type="reset">Limpar</button>
-                                <button class="btn btn-primary" type="submit">Enviar</button>
-                            </div>
-                            </form>
                         </div>
+                    </section>
                 </div>
-        </section>
-        </div>
 
-        <div class="card-footer">
-            <footer>
+                <div class="card-footer">
+                    <footer>
 
-            </footer>
-        </div>
-        </div>
+                    </footer>
+                </div>
+            </div>
         </section>
 
 
