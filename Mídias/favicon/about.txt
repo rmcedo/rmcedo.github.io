@@ -1,6 +1,0 @@
-This favicon was generated using the following font:
-
-- Font Title: Stalinist One
-- Font Author: Copyright (c) 2009-2011, Alexey Maslov, Jovanny Lemonad (lemonad@jovanny.ru), with Reserved Font Name 'Stalinist'
-- Font Source: http://fonts.gstatic.com/s/stalinistone/v47/MQpS-WezM9W4Dd7D3B7I-UT7eZ-UPyacPbo.ttf
-- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
