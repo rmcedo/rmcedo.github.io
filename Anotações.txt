@@ -1,0 +1,16 @@
+Frontend:
+
+HTML - CSS - JavaScript = Typescript - jQuery - Bootstrap
+
+Version:
+
+Git - Github
+
+
+IDE:
+
+Eclipse - Visual Studio Code
+
+Backend:
+
+Java - MySQL - SQLiteStudio

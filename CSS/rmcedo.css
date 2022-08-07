@@ -1,6 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Orienta&family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Inter:wght@200;300&family=Maven+Pro&family=Orienta&family=Press+Start+2P&family=Questrial&display=swap');
 
 
+.conforta{
+
+  font-family: 'Comfortaa', cursive;
+}
 .maven {
 
   font-family: 'Maven Pro', sans-serif;
@@ -100,7 +104,7 @@
   animation: rotate 2s infinite;
   height: 10px;
   width: 10px;
-  padding-top:25px;
+  padding-top: 25px;
 
 }
 
@@ -116,13 +120,15 @@
 .loader:before {
   animation: ball1 1s infinite;
   background-color: #fff;
-  box-shadow: 30px 0 0  rgb(52, 79, 88);;
+  box-shadow: 30px 0 0 rgb(52, 79, 88);
+  ;
   margin-bottom: 10px;
 }
 
 .loader:after {
   animation: ball2 2s infinite;
-  background-color: rgb(52, 79, 88);;
+  background-color: rgb(52, 79, 88);
+  ;
   box-shadow: 30px 0 0 #fff;
 }
 
@@ -142,17 +148,20 @@
 
 @keyframes ball1 {
   0% {
-    box-shadow: 30px 0 0  rgb(52, 79, 88);;
+    box-shadow: 30px 0 0 rgb(52, 79, 88);
+    ;
   }
 
   50% {
-    box-shadow: 0 0 0  rgb(52, 79, 88);;
+    box-shadow: 0 0 0 rgb(52, 79, 88);
+    ;
     margin-bottom: 0;
     transform: translate(15px, 15px);
   }
 
   100% {
-    box-shadow: 30px 0 0  rgb(52, 79, 88);;
+    box-shadow: 30px 0 0 rgb(52, 79, 88);
+    ;
     margin-bottom: 10px;
   }
 }
@@ -174,7 +183,7 @@
   }
 }
 
-footer::after{
+footer::after {
 
   content: "© Copyright rmcedo.github.io";
   font-size: 9px;
