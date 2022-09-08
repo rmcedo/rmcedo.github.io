@@ -205,3 +205,31 @@ footer::after {
   font-size: 9px;
   text-align: center;
 }
+/* h1{
+  position: relative;
+}
+h1::before{
+  content:"Rafael Macedo | Full-Stack Developer";
+  width: 100%;
+  color: #2ae820;
+  position: absolute;
+  top: 0;
+  left:0;
+  border-right: .4rem solid;
+  animation:  slide 3s linear infinite;
+  overflow: hidden;
+
+}
+
+@keyframes slide{
+
+  0%{
+    width: 0%;
+  }
+  50%{
+    width: 100%;
+  }
+  100%{
+    width: 0%;
+  }
+} */
